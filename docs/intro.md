@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Introduction
 
-## Getting Started
+Inspired by the 4D Method presentation [Building developer.4d.com](https://4dmethod.com/2021/01/21/february-3-meeting-building-developer-4d-com-a-markdown-based-documentation-site-arnaud-schmitt/), let’s dive deeper into Docusaurus and how to set up a documentation website for yourself.
 
-Get started by **creating a new site**.
+4D has changed its method documentation to be markdown as well. You could present your method documentation, broader design architecture and even 'how to's' for you application in a nice, organised, searchable website without worrying about the technical implementation. You \*just\* have to write the documentation!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Because the documentation is all just markdown, a plain text document. The changes are easily tracked using Git. This also allows for teams to work on documentation simultaneously.
 
-### What you'll need
+This documentation website is setup so you can easily follow the steps to setup your own basic documentation website.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This is seperated into the following segments:
+## [Getting started](Getting%20started.md)
+Getting started is often the hardest part, here as well! In this part we will cover all the things you need to install and configure. Then we will instantiate your standard Docusaurus website, put it under Git versioning and upload it to GitHub.
 
-## Generate a new site
+## [Personalize your page](./docs/Personalize_Your_Page)
+You probably want to change the default [Color Scheme](Personalize_Your_Page/Color%20Scheme.md) and add your own [logo](Personalize_Your_Page/Logo.md) to your website. This is easily done with some color codes in the .css file and configuration changes. Now this website is really yours!
+## [Deployment](Deployment.md)
+What is a website that nobody can see? useless! Let's deploy your wonderful creation using GitHub pages. Now everyone can see what your product does and/or how to use it!
 
-Generate a new Docusaurus site using the **classic template**.
+## [DocSearch](Algolia_search.md)
+Next you want to be able for your users to search your website. Docusaurus has a great integration with Algolia. you need to wait for verification from Algolia before you can start indexing and using this feature, but you usually don't have to wait long!
+##  (Optional) Add 4D language support for syntax higlighting
 
-The classic template will automatically be added to your project after you run the command:
+### create your own custom syntax highlighting colors
+## What's next?
+After all this, you can start writing your documentation in markdown files. 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+You can also go through the [Official Website](https://docusaurus.io/) to learn Docusaurus in more Depth than what we will discuss here. Customize your website even more with this information. Alter your src\components\HomepageFeatures\index.js file to list your product's features and captivate your audience on the home screen. See the [showcase](https://docusaurus.io/showcase) page for more examples of how you can style your page, the repos for these showcases are often public, so you can learn from the source!
