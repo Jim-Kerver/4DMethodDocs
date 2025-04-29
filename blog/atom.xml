@@ -2,30 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jim-kerver.github.io/4DMethodDocs/blog</id>
     <title>4D Method Blog</title>
-    <updated>2024-12-30T00:00:00.000Z</updated>
+    <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jim-kerver.github.io/4DMethodDocs/blog"/>
     <subtitle>4D Method Blog</subtitle>
     <icon>https://jim-kerver.github.io/4DMethodDocs/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Welcome 4D Method enthousiasts!]]></title>
-        <id>https://jim-kerver.github.io/4DMethodDocs/blog/Welcome 4D</id>
-        <link href="https://jim-kerver.github.io/4DMethodDocs/blog/Welcome 4D"/>
-        <updated>2024-12-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Grab a beverage and look around the website. This is all out of the box Docusaurus stuff.]]></summary>
-        <content type="html"><![CDATA[<p>Grab a beverage and look around the website. This is all out of the box Docusaurus stuff.</p>
-<p>Let's use this area for the first part of the live demo. It will show you how easy it is to modify and upload content!.</p>]]></content>
-        <author>
-            <name>Jim Kerver</name>
-            <uri>https://github.com/Jim-Kerver</uri>
-        </author>
-        <author>
-            <name>Brent Raymond</name>
-            <uri>https://www.4dmethod.com</uri>
-        </author>
-        <category label="4D" term="4D"/>
-        <category label="welcome" term="welcome"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://jim-kerver.github.io/4DMethodDocs/blog/welcome</id>

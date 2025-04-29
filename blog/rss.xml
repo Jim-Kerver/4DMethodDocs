@@ -4,21 +4,10 @@
         <title>4D Method Blog</title>
         <link>https://jim-kerver.github.io/4DMethodDocs/blog</link>
         <description>4D Method Blog</description>
-        <lastBuildDate>Mon, 30 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[Welcome 4D Method enthousiasts!]]></title>
-            <link>https://jim-kerver.github.io/4DMethodDocs/blog/Welcome 4D</link>
-            <guid>https://jim-kerver.github.io/4DMethodDocs/blog/Welcome 4D</guid>
-            <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Grab a beverage and look around the website. This is all out of the box Docusaurus stuff.]]></description>
-            <content:encoded><![CDATA[<p>Grab a beverage and look around the website. This is all out of the box Docusaurus stuff.</p>
-<p>Let's use this area for the first part of the live demo. It will show you how easy it is to modify and upload content!.</p>]]></content:encoded>
-            <category>4D</category>
-            <category>welcome</category>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://jim-kerver.github.io/4DMethodDocs/blog/welcome</link>
