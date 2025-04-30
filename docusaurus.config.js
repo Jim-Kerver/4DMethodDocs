@@ -149,12 +149,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: '1F5ZFXID3G',
+        appId: 'XD3Y0ZB1LI',
   
         // Public API key: it is safe to commit it
-        apiKey: 'b3cbd81bf9e85e37d4486e717fba551e',
+        apiKey: '14ee5ee37fd9ed2b50f1144908f1d6ca',
   
-        indexName: 'YOUR_INDEX_NAME',
+        indexName: 'jim_kerver_github_io_xd3y0zb1li_pages',
   
         // Optional: see doc section below
         contextualSearch: true,
